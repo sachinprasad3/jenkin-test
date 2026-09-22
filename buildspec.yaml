@@ -23,6 +23,8 @@ phases:
       - echo Pushing Docker images...
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
+      - echo "Checking Dockerrun.aws.json..."
+      - cat Dockerrun.aws.json
       - echo Build completed on `date`
 
 artifacts:
