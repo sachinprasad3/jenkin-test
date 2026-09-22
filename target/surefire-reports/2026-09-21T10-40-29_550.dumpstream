@@ -1,0 +1,5 @@
+# Created at 2026-09-21T10:40:29.715
+Boot Manifest-JAR contains absolute paths in classpath 'D:\microservice-workspace\order-service\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
