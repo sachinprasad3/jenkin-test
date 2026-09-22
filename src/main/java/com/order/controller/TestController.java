@@ -41,4 +41,12 @@ public class TestController {
 		
 		return str;
 	}
+
+		@GetMapping("/sachin")
+	public String welcomesachin() {
+		
+		String str = "Welcome sachin"; 
+		
+		return str;
+	}
 }
