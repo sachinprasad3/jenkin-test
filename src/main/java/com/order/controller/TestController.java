@@ -49,4 +49,14 @@ public class TestController {
 		
 		return str;
 	}
+
+
+	
+	@GetMapping("/newapi")
+	public String newApi() {
+		
+		String str = "Welcome New API"; 
+		
+		return str;
+	}
 }
